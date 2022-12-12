@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var table = document.getElementById("myTable");
+      for (let i in table.rows) {
+        let row = table.rows[i];
+        //iterate through rows
+        //rows would be accessed using the "row" variable assigned in the for loop
+        for (let j in row.cells) {
+          let col = row.cells[j];
+          //iterate through columns
+          //columns would be accessed using the "col" variable assigned in the for loop
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<%- include('../layouts/head'); -%>
+<%- include('../layouts/nav'); -%>
+
+  <h1>Edit Portofolio</h1>
+  <form action="/edit" method="post">
+    <input type="hidden" value="<%= id %>" name="no">
+<br>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Nama Project</span>
+      <input type="text" name="nama" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <div class="input-group input-group-sm mb-3">
+      <span class="input-group-text">Link Github</span>
+      <input type="text" name="link" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <button type="submit" class="btn btn-primary">Edit</button>
+  </form>
+<%- include('../layouts/footer'); -%>
