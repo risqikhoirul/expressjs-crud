@@ -12,7 +12,7 @@
 <br>
 install node_modules dependencies
 <br>
-`npm init`
+`npm install`
 <br>
 you can run server on localhost with this command.
 <br>
